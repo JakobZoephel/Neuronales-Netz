@@ -1,5 +1,5 @@
 # Installation
-Das Programm kann mit der Datei "installer.bat" installiert werden. Diese ist eine Batch-Datei, die einige Commands ausführt (dazu öffnet sich ein Terminal, die "cmd"). Man kann die Datei als einzelne Herunterladen, indem man diese auswählt und anschließend rechts auf "Download" klickt.
+Das Programm kann mit der Datei "installer.bat" installiert werden. Diese ist eine Batch-Datei, die einige Commands ausführt (dazu öffnet sich ein Terminal, die "cmd"). Man kann die Datei als einzelne herunterladen, indem man diese auswählt und anschließend rechts auf "raw" klickt. Wenn man dann Strg und "s" gleichzeitig drückt oder bei einem Rechtsklick "Seite speicherun unter..." auswählt, kann die Datei gespeichert werden.
 Beim dem Ausühren der installer.bat Datei oder später des Programmes, erscheint eine Sicherheitswarnung von Windows. Grund dafür ist, dass keine der beiden Datein zertifiziert ist. Das Auführen ist aber trotzdem möglich (und sicher), wenn man auf "weitere Informationen" klickt und anschließend auf "Trotzdem Ausführen".
 Zum weiteren Editieren und Ausführen des Programmcodes kann außerdem die IDE Processing benutzt werden: https://processing.org
 # Das Neuronale Netz
