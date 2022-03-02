@@ -1,0 +1,13 @@
+timeOut:::Minuten, nach denen die AI spätestens das Training beendet
+epochs:::Trainingsdurchläufe (1 Durchlauf ist beendet, wenn alle Beispiele einmal verwendet wurden)
+trainExamples:::Anzahl der Beispiele die zum Trainieren der AI verwendet werden sollen
+testExamples:::Anzahl der Beispiele die zum Testen der AI verwendet werden sollen
+threadCount:::Anzahl der zu verwendenden Threads
+threadPriority:::Priorität der AI. 1-10, 10 ist das höchste
+batchSize:::Von wie vielen Beispielen der Durchschnitt der Gewichtsänderung berechnet werden soll
+lr:::Learn Rate (Lern Rate). Gibt an, wie schnell die AI lernt. Sollte <= 0.1 sein
+momentum:::Wie schnell der Einfluss des Momentums abnimmt. Sollte <= 0.9 sein
+weigthsValue:::Höchster möglicher Betrag, den ein Gewicht am Anfang annehmen kann
+hiddenLayers:::Drücke ENTER um eine neue Schicht hinzuzufügen. Form: Anzahl_Neuronen:Aktivierungsfunktion
+outL:::Die Ouput-Schicht hat 10 Neuronen, denn 10 Ziffern. Form: Aktivierungsfunktion
+loss:::Die Fehlerfunktion berechnet den Fehler der AI. Form: Fehlerfunktion
