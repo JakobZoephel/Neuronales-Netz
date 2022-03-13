@@ -118,7 +118,7 @@ void setup() {
   try {
 
     Process process = Runtime.getRuntime().exec("curl https://raw.githubusercontent.com/JakobZoephel/Neuronales-Netz/main/Neuronales_Netz/Neuronales_Netz.pde");
-    BufferedReader input = new BufferedReader(new java.io.InputStreamReader(process.getInputStream()));
+    BufferedReader input = new BufferedReader(new java.io.InputStreamReader(process.getInputStream(), "UTF-8"));
 
     String[] content = loadStrings(sketchPath("source/Neuronales_Netz.pde"));
     //wenn es in der IDE gestartet wurde
