@@ -13,6 +13,6 @@ curl -o java.zip https://download.oracle.com/java/17/latest/jdk-17_windows-x64_b
 :: Extrahiert Java
 tar -xf java.zip
 :: Den Ordner zu java umbenennen damit das Programm ihn findet
-ren jdk-17.0.3 java
+ren jdk-17.0.3.1 java
 :: Diese Zip-Datei wird ebenfalls nicht mehr gebraucht 
 del java.zip
